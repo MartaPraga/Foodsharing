@@ -1,0 +1,21 @@
+.Menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  &__item {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #071E01;
+    padding: 10px;
+
+    &:hover {
+      color: #0f866c;
+      border-bottom: 2px solid #0f866c;
+    }
+
+  }
+
+
+}

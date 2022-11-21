@@ -1,0 +1,29 @@
+.MenuButtons {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ font-weight: bold;
+ 
+
+
+ & a {
+font-size: 1.25rem;
+padding: 10px;
+border: 1px solid black;
+border-radius: 25px;
+margin: 10px;
+text-decoration: none;
+background-color: #0d3b02;
+color: white;
+}
+
+& a:hover {
+ background-color: #EC9140;
+ color: white;
+ font-weight: bold;
+ transition: background-color 0.1s;
+
+}
+ 
+}
+

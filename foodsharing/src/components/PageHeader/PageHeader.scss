@@ -1,0 +1,23 @@
+.PageHeader {
+max-width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 1rem 1.5rem;
+position: sticky;
+top: 0;
+background-color: #ece0d2;
+transition: 0.3s;
+
+
+&__menu {
+  display: flex;
+  flex-direction: row;
+}
+
+&:hover {
+  background-color: white;
+  
+}
+
+}
