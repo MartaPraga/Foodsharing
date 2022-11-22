@@ -1,0 +1,15 @@
+.Feature {
+  max-width: 800px;
+  padding: 50px;
+  margin: 50px auto ;
+  text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  
+ 
+  &__image {
+  width: 150px;
+  height: auto;
+  }
+}

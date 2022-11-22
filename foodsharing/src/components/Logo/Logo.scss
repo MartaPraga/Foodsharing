@@ -4,6 +4,7 @@
   display: inline-block;
   padding-left: 50px;
 
+
   &::before {
     background-image: url('../../../public/images/agronomy.png');
     background-size: 50px;
@@ -36,4 +37,6 @@
       transform: rotate(360deg);
     }
   }
+
+ 
 }

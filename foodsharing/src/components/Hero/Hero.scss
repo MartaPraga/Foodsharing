@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 50px;
+  padding-top: 100px;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -17,6 +17,7 @@
 
   &__image {
     width: 55%;
+    height: auto;
     background-size: contain;
     border-radius: 40% 20% / 10% 40%;
   }

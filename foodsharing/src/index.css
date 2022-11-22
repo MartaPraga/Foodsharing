@@ -1,13 +1,25 @@
 /* @import-normalize */
 
 body {
+  max-width: 1352px;
   margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
   font-size: 16px;
   font-family: 'Ubuntu', sans-serif;
-  max-width: 1352px;
+  color: #051401
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: #051401;
 }
+
+/* .section {
+  margin: 50px auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+} */
